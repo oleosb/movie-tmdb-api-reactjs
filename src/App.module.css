@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+          --primary-color: #eceff6;
+          --secondary-color: #141414;
+}
+
+*,
+*::before,
+*::after{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+html{
+          font-family: 'Roboto', sans-serif;
+          font-size: calc(10px + .5vw);
+}
+
+body{
+          background: var(--primary-color);
+          color: var(--secondary-color);
+          overflow-x: hidden;
+          position: relative;
+}
+
+.movieList{
+          padding: 5% 5% 3% 5%;
+}
+
+/* width */
+::-webkit-scrollbar {
+          width: 8px;
+          cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+          background: var(--primary-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+          background: #242424;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+          background: var(--secondary-color);
+}

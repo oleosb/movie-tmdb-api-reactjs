@@ -1,0 +1,29 @@
+.row{
+          display: flex;
+          width: 100%;
+          overflow-x: scroll;
+          gap: 1em;
+          padding: 1.5em 1em;
+          margin-bottom: 2em;
+}
+
+.row::-webkit-scrollbar {
+          height: 3px;
+}
+
+.title{
+          text-align: center;
+          text-transform: uppercase;
+          text-decoration: underline;
+          font-weight: 900;
+          font-size: clamp(20px, 1.75em, 30px);
+}
+
+.noSelect {
+          -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+          -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
